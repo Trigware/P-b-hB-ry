@@ -1,2 +1,2 @@
-# P-b-hB-ry
+# Příběh Báry
 Zdrojový kód pro DIGIDAYS projekt - Příběh Báry!
