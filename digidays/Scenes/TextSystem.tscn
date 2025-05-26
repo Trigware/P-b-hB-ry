@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2fv80rx78l6r"]
+
+[ext_resource type="Script" uid="uid://bpxpyendd1tw4" path="res://Scripts/TextSystem.gd" id="1_tetb0"]
+
+[node name="TextSystem" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tetb0")
+
+[node name="TypewritterTimer" type="Timer" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 426.0
+offset_top = 448.0
+offset_right = 723.0
+offset_bottom = 515.0
+theme_override_font_sizes/font_size = 48
+text = "Hello, World!"

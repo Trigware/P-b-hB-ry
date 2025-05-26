@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://brg4x4upxwcyt"]
+
+[ext_resource type="Script" uid="uid://c8vu1wmpoxu71" path="res://Scripts/PanelsManager.gd" id="1_7rqgy"]
+[ext_resource type="Texture2D" uid="uid://ch0yuoora86vt" path="res://Panels/bara-1.PNG" id="1_nhkr4"]
+[ext_resource type="Texture2D" uid="uid://ctuqochdk5j53" path="res://Panels/bara-2.PNG" id="2_7rqgy"]
+[ext_resource type="Texture2D" uid="uid://4ysdqhijxop5" path="res://Panels/bara-3.PNG" id="3_qxria"]
+
+[node name="MainScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7rqgy")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 1)
+
+[node name="Panels 1" type="Node" parent="."]
+
+[node name="bara1" type="TextureRect" parent="Panels 1"]
+offset_top = 64.0
+offset_right = 578.0
+offset_bottom = 627.0
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_nhkr4")
+
+[node name="bara2" type="TextureRect" parent="Panels 1"]
+offset_left = 386.0
+offset_top = 64.0
+offset_right = 910.0
+offset_bottom = 540.0
+scale = Vector2(0.72, 0.72)
+texture = ExtResource("2_7rqgy")
+
+[node name="bara3" type="TextureRect" parent="Panels 1"]
+offset_left = 808.0
+offset_top = 64.0
+offset_right = 1386.0
+offset_bottom = 637.0
+scale = Vector2(0.59, 0.59)
+texture = ExtResource("3_qxria")
