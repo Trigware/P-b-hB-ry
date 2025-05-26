@@ -30,17 +30,17 @@ scale = Vector2(0.6, 0.6)
 texture = ExtResource("1_nhkr4")
 
 [node name="bara2" type="TextureRect" parent="Panels 1"]
-offset_left = 386.0
+offset_left = 390.0
 offset_top = 64.0
-offset_right = 910.0
+offset_right = 914.0
 offset_bottom = 540.0
 scale = Vector2(0.72, 0.72)
 texture = ExtResource("2_7rqgy")
 
 [node name="bara3" type="TextureRect" parent="Panels 1"]
-offset_left = 808.0
+offset_left = 811.0
 offset_top = 64.0
-offset_right = 1386.0
+offset_right = 1389.0
 offset_bottom = 637.0
 scale = Vector2(0.59, 0.59)
 texture = ExtResource("3_qxria")
